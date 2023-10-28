@@ -7,3 +7,7 @@ A aplicação de frontend depende do backend, que por sua vez depende dos dois b
 No frontend o usuário poderá incluir ou remover itens tanto do banco de dados 1 (db1) quanto do banco de dados 2 (db2). Além disso, o usuário poderá comparar se um item está presente nos dois bancos de dados ao mesmo tempo.
 
 ![image](https://github.com/NathSantos/Fullstack-Docker-Project-SD/assets/63311872/c0ab2317-67db-42e8-9324-deeaff89226d)
+
+```bash
+docker exec -it <nome_container> mysql -u root -p
+```
