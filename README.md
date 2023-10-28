@@ -8,6 +8,22 @@ No frontend o usuário poderá incluir ou remover itens tanto do banco de dados 
 
 ![image](https://github.com/NathSantos/Fullstack-Docker-Project-SD/assets/63311872/c0ab2317-67db-42e8-9324-deeaff89226d)
 
+## Comandos
+
+**Para rodar a aplicaçao:**
+
 ```bash
-docker exec -it <nome_container> mysql -u root -p
+docker compose up
+```
+
+**Para rodar a aplicaçao em segundo plano:**
+
+```bash
+docker compose up -d
+```
+
+**Para parar e remover todos os contêineres e volumes criados:**
+
+```bash
+docker compose down
 ```
