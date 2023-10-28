@@ -1,0 +1,40 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 2rem;
+}
+
+.cidadesEpaisesContainer {
+  margin-top: 30px;
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.cidadeContainer,
+.paisesContainer {
+  width: 100%; 
+  max-width: 600px; 
+  padding: 0 1rem;
+  margin-top: 1rem; 
+  flex: 1;
+  box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  background-color: #f77c1866;
+}
+
+.cidadeContainer {
+  margin-right: 30px;
+}
+
+.compareContainer {
+  width: 50%; 
+  padding: 0 1rem;
+  margin-top: 1rem; 
+}
+
+.Error {
+  color: red;
+}
